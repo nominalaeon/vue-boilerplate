@@ -1,0 +1,11 @@
+
+@import './dimensions';
+
+$font__size: calc(14px + (#{$app__min} * .01));
+
+$font__size--h1: calc(#{$font__size} * 3);
+$font__size--h2: calc(#{$font__size} * 2.25);
+$font__size--h3: calc(#{$font__size} * 1.75);
+$font__size--h4: calc(#{$font__size} * 1.125);
+
+$font__size--blockquote: calc(#{$font__size} * 1.5);
